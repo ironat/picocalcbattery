@@ -11,10 +11,8 @@ To install plugin on the Raspberry Pi run either (32 bit)
 
 	sudo cp picocalcbattery.so /usr/lib/arm-linux-gnueabihf/lxpanel/plugins/picocalcbattery.so
 
-or (64 bit)
-
-    sudo cp picocalcbattery64.so /usr/lib/aarch64-linux-gnu/lxpanel/plugins/picocalcbattery.so
-
+For 64 Bit you have to compile it.
+    
 Either restart or run `lxpanelctl restart` to make LXDE aware it is installed.
 
 # compile
